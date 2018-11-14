@@ -1,0 +1,65 @@
+body {
+    background-image: url("../images/map2.jpeg");
+    text-align: center;
+}
+
+.container {
+    position: relative;
+    top: 130px;
+    left: 260px;
+    background-color: lightgoldenrodyellow;
+    width: 58%;
+    border: 6px dashed skyblue;
+    opacity: .8;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 0px;
+}
+
+#title1 {
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 55px;
+    margin-right: 0px;
+    text-align: center;
+    letter-spacing: 3px;
+    color: rgb(30, 183, 243);
+}
+
+#title2 {
+    font-family: 'Bungee Shade', cursive;
+    font-size: 30px;
+    margin-left: 0px;
+    text-align: center;
+    color: rgb(223, 20, 20);
+}
+
+.gameplay-column {
+    border: 3px dashed red;
+    padding-top: 15px;
+    text-align: center;
+    margin-top: 15px;
+    min-height: 425px;
+    opacity: .8;
+    font-family: 'Fredericka the Great', cursive;
+    margin-bottom: 8px;
+}
+
+#currentWord {
+    letter-spacing: 10px;
+}
+
+#youWin-image,
+#gameOver-image {
+    display: block;
+    margin: 0 auto;
+    width: 265px;
+    height: 195px;
+}
+
+#pressKeyTryAgain,
+#gameOver-image,
+#youWin-image {
+     display: none; 
+ } 
