@@ -1,16 +1,20 @@
+html, body {
+    min-height: 100%;
+}
+
+
 body {
     background-image: url("../images/map2.jpeg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     height: auto;
-    /* text-align: center; */
 }
 
 .container {
     position: relative;
-    top: 60px;
-    left: 260px;
+    top: 132px;
+    left: 250px;
     background-color: lightgoldenrodyellow;
     width: 62%;
     border: 6px dashed skyblue;
