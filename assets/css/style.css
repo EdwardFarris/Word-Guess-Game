@@ -15,10 +15,9 @@ body {
     position: relative;
     top: 132px;
     left: 250px;
-    background-color: lightgoldenrodyellow;
+    background-color: rgb(250, 250, 210, .7);
     width: 62%;
-    border: 6px dashed skyblue;
-    opacity: .8;
+    border: 6px dashed rgb(7, 165, 227);
     margin-left: 40px;
     margin-right: 40px;
     padding-left: 25px;
@@ -32,7 +31,7 @@ body {
     margin-right: 0px;
     text-align: center;
     letter-spacing: 3px;
-    color: rgb(30, 183, 243);
+    color: rgb(7, 165, 227);
 }
 
 #title2 {
@@ -49,9 +48,10 @@ body {
     text-align: center;
     margin-top: 15px;
     min-height: 425px;
-    opacity: .8;
+    /* opacity: .8; */
     font-family: 'Fredericka the Great', cursive;
     margin-bottom: 8px;
+    color: black;
 }
 
 #currentWord {
